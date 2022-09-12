@@ -1,0 +1,16 @@
+
+
+"Lift.Doors"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"		"SNDLVL_NORM"
+	"volume"		"0.4"
+	"pitch"		"95,110"
+	"rndwave"
+	{
+		"wave"		"fun/doorliftopen.wav"
+		"wave"		"fun/doorliftopen02.wav"
+	}
+	
+}
+

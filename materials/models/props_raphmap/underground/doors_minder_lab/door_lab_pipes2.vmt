@@ -1,0 +1,10 @@
+VertexLitgeneric
+{
+	$basetexture models\props_raphmap\underground\doors_minder_lab/pipes_base
+	$bumpmap models\props_raphmap\underground\doors_minder_lab/pipes_normal
+	$detail models\props_raphmap\underground\doors_minder_lab/pipes_roug
+	$phong 1
+	$phongfresnelranges 		"[0.2 20 20]" 
+$phongexponent 100
+$phongboost "0.5"
+}

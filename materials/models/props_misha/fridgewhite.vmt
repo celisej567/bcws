@@ -1,0 +1,11 @@
+"VertexLitgeneric"
+{
+	"$basetexture" "models/props_misha/fridgewhite"
+	$phong 1
+$nocull 1
+$phongexponent 100
+$phongboost ".03"
+$phongfresnelranges "[1 1 4]"
+
+$basemapalphaphongmask 1
+}

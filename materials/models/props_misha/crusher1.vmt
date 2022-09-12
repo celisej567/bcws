@@ -1,0 +1,7 @@
+VertexLitgeneric
+{
+$basetexture "models/props_misha/crusher1"
+$surfaceprop metal
+"%keywords" "portal2 bts destruction"
+"%noportal" 1
+}

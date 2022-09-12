@@ -1,0 +1,8 @@
+VertexLitgeneric
+{
+$basetexture models/weapons/v_bcws_hand/v_hand_base
+//$bumpmap  models/weapons/v_bcws_hand/v_hand_normal
+//$normalmap   models/weapons/v_bcws_hand/v_hand_normal
+$normal 0
+
+}

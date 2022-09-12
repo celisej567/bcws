@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	// Original shader: VertexLitTexture
+	"$basetexture" "models\Bionic\Myonic\kt_facebuilder_test"
+}

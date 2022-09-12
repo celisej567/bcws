@@ -1,0 +1,11 @@
+VertexLitgeneric
+{
+$basetexture "models/props_misha/metal_lift001"
+$basealphaenvmapmask 1
+$envmap env_cubemap
+$surfaceprop metal
+"%keywords" portal
+"%noportal" 1
+$envmaptint "[ .9 .9 .9 ]"
+
+}

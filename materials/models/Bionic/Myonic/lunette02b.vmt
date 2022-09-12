@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\Bionic\Myonic\lunette02b"
+	"$surfaceprop" "glass"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\Bionic\Myonic\lunette02b_ref"
+}

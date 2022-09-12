@@ -1,0 +1,8 @@
+VertexLitgeneric
+{
+$baseTexture "models/props_misha/doorway/bossdetail1"
+$surfaceprop wood
+$envmap env_cubemap
+$envmaptint "[ .15 .15 .15 ]"
+$bumpmap "models/props_misha/doorway/bossdetail1_normal"
+}

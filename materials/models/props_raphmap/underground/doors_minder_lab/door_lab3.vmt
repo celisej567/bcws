@@ -1,0 +1,14 @@
+VertexLitgeneric
+{          
+	$basetexture models\props_raphmap\underground\doors_minder_lab/door_base3
+	$bumpmap models\props_raphmap\underground\doors_minder_lab/door_normal3
+	$surfaceprop metal
+	$detail models\props_raphmap\underground\doors_minder_lab/door_roug
+	$detailscale 1
+	$detailblendfactor 0.5
+	
+        $phong 1 
+        $phongfresnelranges 		"[0.2 20 20]" 
+$phongexponent 10
+$phongboost "0.5"
+}

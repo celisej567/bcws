@@ -1,0 +1,23 @@
+Refract
+{
+$model 1
+$refractamount ".025"
+$bluramount 1
+$REFRACTTINT "[.81 .89 1.0]"
+$scale "[1 1]"
+$normalmap "models/props_misha/lamps/corpus_++"
+$surfaceprop glass
+$localrefract 1
+$localrefractdepth "0.05"
+$basetexture "models/props_misha/lamps/lightrefract_base"
+$envmap "models/props_misha/lamps/corpus_++"
+hdr
+{
+$envmap "models/props_misha/lamps/corpus_++"
+}
+$envmapcontrast 1
+$envmapsaturation .2
+$envmaptint "[.2 .2 .2 ]"
+$normalmapalphaenvmapmask 1
+$envmaplightscale .6
+}

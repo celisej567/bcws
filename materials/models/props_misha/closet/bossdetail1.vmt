@@ -1,0 +1,5 @@
+VertexLitgeneric
+{
+$baseTexture "models/props_misha/doorway/bossdetail1"
+$surfaceprop wood
+}

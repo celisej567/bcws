@@ -1,0 +1,7 @@
+UnlitGeneric
+{
+	$basetexture "/skybox/grayup"
+
+	$ignorez 1
+	$nofog 1
+}

@@ -1,0 +1,34 @@
+
+
+"Light.Bzzz"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"		"SNDLVL_NORM"
+	"volume"		"1"
+	"pitch"		"95,110"
+	"wave"		"fun/lightlamp.wav"
+	
+}
+
+"Lift.Start"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"		"SNDLVL_NORM"
+	"volume"		"1"
+	"pitch"		"95,110"
+	"rndwave"
+	{
+	
+	"wave" "fun/liftold01.wav"
+	"wave" "fun/liftold02.wav"
+	"wave" "fun/liftold03.wav"
+	"wave" "fun/liftold04.wav"
+	"wave" "fun/liftold015.wav"
+	"wave" "fun/liftold06.wav"
+	"wave" "fun/liftold07.wav"
+	"wave" "fun/liftold08.wav"
+ 	
+	}		
+	
+}
+

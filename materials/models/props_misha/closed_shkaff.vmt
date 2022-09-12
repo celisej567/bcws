@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_misha/closed_shkaff"
+$phong 1
+$nocull 1
+$phongexponent 100
+$phongboost ".03"
+$phongfresnelranges "[1 1 4]"
+
+$basemapalphaphongmask 1
+	"$rimlight" "1"
+	"$rimexponent" "2"
+	"$rimboost" "1"
+}

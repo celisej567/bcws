@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+$model 1
+$color2  [1.0 1.0 1.0]
+"$surfaceprop" metal
+}

@@ -1,0 +1,15 @@
+VertexLitgeneric
+{
+$basetexture models\props_raphmap\sign\sign_body_yellow_base
+$bumpmap models\props_raphmap\sign\sign_body_yellow_norm
+$detail models\props_raphmap\sign\sign_body_yellow_roug
+$detailscale 1
+$phong 1
+$phongfresnelranges 		"[0.2 20 20]" 
+$phongexponent 100
+$phongboost "0.5"
+
+	$rimlight               1
+	$rimlightexponent       2
+	$rimlightboost          .2
+}

@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "wood/wood_stoika"
+	$bumpmap    "wood/wood_stoika_normal"
+}

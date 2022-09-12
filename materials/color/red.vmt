@@ -1,0 +1,5 @@
+"VertexLitgeneric"
+{
+	"$basetexture" "color/red"
+	"$surfaceprop" "plastic"
+}

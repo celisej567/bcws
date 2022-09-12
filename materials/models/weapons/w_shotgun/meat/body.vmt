@@ -1,0 +1,5 @@
+"VertexLitgeneric"
+{
+	"$basetexture" "models/weapons/w_shotgun/meat/body_Base_Color"
+	$bumpmap "models/weapons/w_shotgun/meat/body_Normal"
+}

@@ -1,0 +1,5 @@
+UnlitGeneric
+{
+ $basetexture models\props_raphmap\underground\doors_minder_lab/door_sign
+ $model 1
+}

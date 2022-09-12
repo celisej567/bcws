@@ -1,0 +1,5 @@
+VertexLitgeneric
+{
+$basetexture "models/props_misha/cloth/shirt_1"
+$nocull 1
+}

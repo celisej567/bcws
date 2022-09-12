@@ -1,0 +1,5 @@
+"VertexLitgeneric"
+{
+	"$basetexture" "models/props_misha/switch_line2"
+	"$surfaceprop" "Metal_Box"
+}

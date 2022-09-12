@@ -1,0 +1,33 @@
+// Choreo version 1
+actor "sandbox"
+{
+  channel "walk"
+  {
+    event sequence "walk"
+    {
+      time -0.646667 -0.646667
+      param "walk"
+      fixedlength
+    }
+    event gesture "walk"
+    {
+      time -0.640000 3.360000
+      param "walk"
+    }
+  }
+  channel "sound"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

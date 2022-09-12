@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "test"
+	$parallaxmap test_h
+	$parallaxmapscale 0.5
+	"$surfaceprop" "concrete"
+	"%keywords" "my_textures"
+}

@@ -1,0 +1,99 @@
+
+
+//  CHAR_STREAM			'*'		// as one of 1st 2 chars in name, indicates streaming wav data
+//  CHAR_USERVOX		'?'		// as one of 1st 2 chars in name, indicates user realtime voice data
+//  CHAR_SENTENCE		'!'		// as one of 1st 2 chars in name, indicates sentence wav
+//  CHAR_DRYMIX			'#'		// as one of 1st 2 chars in name, indicates wav bypasses dsp fx
+//  CHAR_DOPPLER		'>'		// as one of 1st 2 chars in name, indicates doppler encoded stereo wav: left wav (incomming) and right wav (outgoing).
+//  CHAR_DIRECTIONAL	'<'		// as one of 1st 2 chars in name, indicates stereo wav has direction cone: mix left wav (front facing) with right wav (rear facing) based on soundfacing direction
+//  CHAR_DISTVARIANT	'^'		// as one of 1st 2 chars in name, indicates distance variant encoded stereo wav (left is close, right is far)
+//  CHAR_OMNI			'@'		// as one of 1st 2 chars in name, indicates non-directional wav (default mono or stereo)
+//  CHAR_SPATIALSTEREO	')'		// as one of 1st 2 chars in name, indicates spatialized stereo wav
+//  CHAR_FAST_PITCH		'}'		// as one of 1st 2 chars in name, forces low quality, non-interpolated pitch shift
+
+
+
+"Game_Ambient_Office"
+{
+
+	"playlooping"
+	{
+		"volume"	"0.42"
+		"wave"		"@ambient/heavenocean_loop.wav"
+		"pitch"		"100"
+	}
+
+
+	//"playrandom"
+	//{
+		//"time"		"60"
+		//"volume"	"0.3"
+		//"pitch"		"100"
+
+		//"rndwave"
+		//{
+			//"wave"	"ambient/machines/heli_pass1.wav"
+		//}
+	//}
+
+
+}
+
+"Lift.Going"
+{
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"		"@fun/liftupordown.wav"
+		"pitch"		"100"
+	}
+
+
+	"playrandom"
+	{
+		"time"		"3"
+		"volume"	"0.3"
+		"pitch"		"100"
+
+		"rndwave"
+		{
+			"wave"	"@fun/liftold01.wav"
+			"wave"	"@fun/liftold02.wav"
+			"wave"	"@fun/liftold03.wav"
+			"wave"	"@fun/liftold04.wav"
+			"wave"	"@fun/liftold05.wav"
+			"wave"	"@fun/liftold06.wav"
+			"wave"	"@fun/liftold07.wav"
+			"wave"	"@fun/liftold08.wav"
+		}
+	}
+	"playrandom"
+	{
+		"time"		"5"
+		"volume"	"0.3"
+		"pitch"		"100"
+
+		"rndwave"
+		{
+			"wave"	"@fun/liftold01.wav"
+			"wave"	"@fun/liftold02.wav"
+			"wave"	"@fun/liftold03.wav"
+			"wave"	"@fun/liftold04.wav"
+			"wave"	"@fun/liftold05.wav"
+			"wave"	"@fun/liftold06.wav"
+			"wave"	"@fun/liftold07.wav"
+			"wave"	"@fun/liftold08.wav"
+		}
+	}
+}
+"Light.Bzzzz"
+{
+	"playlooping"
+		{
+			"volume"	"1"
+			"wave"		")fun/lightlamp.wav"
+			"pitch"		"100"
+		}
+}
+
