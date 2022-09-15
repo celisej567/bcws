@@ -27,11 +27,12 @@ gameinfo
 			gamebin	"hl2_mod/bin"
 			game	"|all_source_engine_paths|hl2"
 
-			game	"D:\SteamLibrary\steamapps\common\Counter-Strike Source\cstrike"
+			game	"D:/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike"
 
 			//mapbase stuff
 			game+mod	"|gameinfo_path|base/episodic/*"
 			game+mod	"|gameinfo_path|base/hl2/*"
+			game+mod	"|gameinfo_path|SomeTestShit"
 			game+mod	"|gameinfo_path|base/shared/shared_content.vpk"
 
 			//parallax fixes 
