@@ -1,0 +1,22 @@
+"lightmappedreflective"
+{
+"$basetexture" "tiles/tile"
+"$translucent" 1
+"$reflectivity"	"[ .8 .8 .8 ]"
+
+//"$refracttexture" "_rt_WaterRefraction"
+//"$refractamount" "-0.2"
+//"$refracttint" "[1 0.9 0.8]"
+"$bluramount"	0
+"$reflecttexture" "_rt_WaterReflection"
+"$reflectamount" "0.5"
+"$reflecttint" "[.4 .4 .4]"
+"$fresnelpower" "0"
+"$minreflectivity" "0.1"
+"$maxreflectivity" "0.3"
+
+"$normalmap" "tiles/tile_n"
+
+"$surfaceprop" "tile"
+"$bumpframe" "0"
+} 

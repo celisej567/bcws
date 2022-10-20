@@ -11,7 +11,7 @@
 	"5"	
 	{
 		"label" "launch test"
-		"command" "engine map map1_d"
+		"command" "engine map map1"
 		"InGameOrder" "40"
 		"notmulti" "1"
 	}

@@ -37,8 +37,8 @@ gameinfo
 
 			//parallax fixes 
 			game+mod	"|gameinfo_path|parallax/prlx/*"	//delete this line before posting
-			//shader editor (fix pls)
-			game+mod	"|gameinfo_path|shadereditor"
+			//shader editor 
+			//game+mod	"|gameinfo_path|shadereditor"		//this too
 
 			platform	"|all_source_engine_paths|platform/platform_misc.vpk"
 			platform	"|all_source_engine_paths|platform"

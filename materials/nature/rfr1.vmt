@@ -1,0 +1,29 @@
+"Refract"
+{
+
+
+        //$normalmap nature/noise
+        $normalmap dev/water_normal
+        
+ 	$refracttint "[0 0 1]"
+	$refractamount .15
+	%compilenonsolid  1
+	$additive 1
+	"Proxies"
+	{       
+		//"AnimatedTexture"
+		//{
+		//	"animatedtexturevar" "$normalmap"
+		//	"animatedtextureframenumvar" "$bumpframe"
+		//	"animatedtextureframerate" 30.00
+		//}  
+		
+		TextureScroll
+		{
+			"texturescrollvar" "$bumptransform"
+			"texturescrollrate" .05
+			"texturescrollangle" 45.00
+		}
+	}
+}
+
