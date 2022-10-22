@@ -1,7 +1,7 @@
 "Refract"
 {
 
-
+        $surfaceprop glass  
         //$normalmap nature/noise
         $normalmap dev/water_normal
  	$refracttint "[0 1 0]"
