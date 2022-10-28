@@ -1,0 +1,375 @@
+
+
+
+materialPath: E:\steam\steamapps\sourcemods\bcws\materials
+Loading e:\steam\steamapps\sourcemods\bcws\maps\viewbob.vmf
+Could not locate 'GameData' key in e:\steam\steamapps\sourcemods\bcws\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing e:\steam\steamapps\sourcemods\bcws\maps\viewbob.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5832 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 37 texinfos to 13
+Reduced 6 texdatas to 6 (136 bytes to 136)
+Writing e:\steam\steamapps\sourcemods\bcws\maps\viewbob.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading e:\steam\steamapps\sourcemods\bcws\maps\viewbob.bsp
+reading e:\steam\steamapps\sourcemods\bcws\maps\viewbob.prt
+   8 portalclusters
+  12 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 64
+Average clusters visible: 8
+Building PAS...
+Average clusters audible: 8
+visdatasize:84  compressed from 128
+writing e:\steam\steamapps\sourcemods\bcws\maps\viewbob.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading e:\steam\steamapps\sourcemods\bcws\maps\viewbob.bsp
+32 faces
+8874 square feet [1277952.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+32 patches before subdivision
+1920 patches after subdivision
+1 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 179449, max 225
+transfer lists:   1.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4898, 4457, 3591)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1305, 1084, 710)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(355, 269, 143)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(97, 67, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(27, 17, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(7, 4, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0004 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 16/8192          192/98304    ( 0.2%) 
+brushsides              96/65536         768/524288   ( 0.1%) 
+planes                 194/65536        3880/1310720  ( 0.3%) 
+vertexes                59/65536         708/786432   ( 0.1%) 
+nodes                   67/65536        2144/2097152  ( 0.1%) 
+texinfos                13/12288         936/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   32/65536        1792/3670016  ( 0.0%) 
+hdr faces               32/65536        1792/3670016  ( 0.0%) 
+origfaces               14/65536         784/3670016  ( 0.0%) 
+leaves                  69/65536        2208/2097152  ( 0.1%) 
+leaffaces               32/65536          64/131072   ( 0.0%) 
+leafbrushes            198/65536         396/131072   ( 0.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              192/512000        768/2048000  ( 0.0%) 
+edges                  121/256000        484/1024000  ( 0.0%) 
+LDR worldlights          0/65536           0/5767168  ( 0.0%) 
+HDR worldlights          1/65536          88/5767168  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]       60136/0        ( 0.0%) 
+visdata               [variable]          84/16777216 ( 0.0%) 
+entdata               [variable]         538/393216   ( 0.1%) 
+LDR ambient table       69/65536         276/262144   ( 0.1%) 
+HDR ambient table       69/65536         276/262144   ( 0.1%) 
+LDR leaf ambient        69/65536        1932/1835008  ( 0.1%) 
+HDR leaf ambient       128/65536        3584/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]        5832/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 72
+Writing e:\steam\steamapps\sourcemods\bcws\maps\viewbob.bsp
+0 seconds elapsed
+
+
+
+materialPath: E:\steam\steamapps\sourcemods\bcws\materials
+Loading e:\steam\steamapps\sourcemods\bcws\maps\viewbob.vmf
+Could not locate 'GameData' key in e:\steam\steamapps\sourcemods\bcws\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing e:\steam\steamapps\sourcemods\bcws\maps\viewbob.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5832 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 37 texinfos to 13
+Reduced 6 texdatas to 6 (136 bytes to 136)
+Writing e:\steam\steamapps\sourcemods\bcws\maps\viewbob.bsp
+1 second elapsed
+
+
+
+4 threads
+reading e:\steam\steamapps\sourcemods\bcws\maps\viewbob.bsp
+reading e:\steam\steamapps\sourcemods\bcws\maps\viewbob.prt
+   8 portalclusters
+  12 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 64
+Average clusters visible: 8
+Building PAS...
+Average clusters audible: 8
+visdatasize:84  compressed from 128
+writing e:\steam\steamapps\sourcemods\bcws\maps\viewbob.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading e:\steam\steamapps\sourcemods\bcws\maps\viewbob.bsp
+32 faces
+8874 square feet [1277952.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+32 patches before subdivision
+1920 patches after subdivision
+1 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 179449, max 225
+transfer lists:   1.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4898, 4457, 3591)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1305, 1084, 710)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(355, 269, 143)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(97, 67, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(27, 17, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(7, 4, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0005 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 16/8192          192/98304    ( 0.2%) 
+brushsides              96/65536         768/524288   ( 0.1%) 
+planes                 194/65536        3880/1310720  ( 0.3%) 
+vertexes                59/65536         708/786432   ( 0.1%) 
+nodes                   67/65536        2144/2097152  ( 0.1%) 
+texinfos                13/12288         936/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   32/65536        1792/3670016  ( 0.0%) 
+hdr faces               32/65536        1792/3670016  ( 0.0%) 
+origfaces               14/65536         784/3670016  ( 0.0%) 
+leaves                  69/65536        2208/2097152  ( 0.1%) 
+leaffaces               32/65536          64/131072   ( 0.0%) 
+leafbrushes            198/65536         396/131072   ( 0.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              192/512000        768/2048000  ( 0.0%) 
+edges                  121/256000        484/1024000  ( 0.0%) 
+LDR worldlights          0/65536           0/5767168  ( 0.0%) 
+HDR worldlights          1/65536          88/5767168  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]       60136/0        ( 0.0%) 
+visdata               [variable]          84/16777216 ( 0.0%) 
+entdata               [variable]         540/393216   ( 0.1%) 
+LDR ambient table       69/65536         276/262144   ( 0.1%) 
+HDR ambient table       69/65536         276/262144   ( 0.1%) 
+LDR leaf ambient        69/65536        1932/1835008  ( 0.1%) 
+HDR leaf ambient       128/65536        3584/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]        5832/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 72
+Writing e:\steam\steamapps\sourcemods\bcws\maps\viewbob.bsp
+1 second elapsed
+
+
+
+materialPath: E:\steam\steamapps\sourcemods\bcws\materials
+Loading e:\steam\steamapps\sourcemods\bcws\maps\viewbob.vmf
+Could not locate 'GameData' key in e:\steam\steamapps\sourcemods\bcws\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing e:\steam\steamapps\sourcemods\bcws\maps\viewbob.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5832 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 37 texinfos to 13
+Reduced 6 texdatas to 6 (136 bytes to 136)
+Writing e:\steam\steamapps\sourcemods\bcws\maps\viewbob.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading e:\steam\steamapps\sourcemods\bcws\maps\viewbob.bsp
+reading e:\steam\steamapps\sourcemods\bcws\maps\viewbob.prt
+   8 portalclusters
+  12 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 64
+Average clusters visible: 8
+Building PAS...
+Average clusters audible: 8
+visdatasize:84  compressed from 128
+writing e:\steam\steamapps\sourcemods\bcws\maps\viewbob.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading e:\steam\steamapps\sourcemods\bcws\maps\viewbob.bsp
+32 faces
+8874 square feet [1277952.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+32 patches before subdivision
+1920 patches after subdivision
+1 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 179449, max 225
+transfer lists:   1.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4898, 4457, 3591)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1305, 1084, 710)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(355, 269, 143)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(97, 67, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(27, 17, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(7, 4, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0005 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 16/8192          192/98304    ( 0.2%) 
+brushsides              96/65536         768/524288   ( 0.1%) 
+planes                 194/65536        3880/1310720  ( 0.3%) 
+vertexes                59/65536         708/786432   ( 0.1%) 
+nodes                   67/65536        2144/2097152  ( 0.1%) 
+texinfos                13/12288         936/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   32/65536        1792/3670016  ( 0.0%) 
+hdr faces               32/65536        1792/3670016  ( 0.0%) 
+origfaces               14/65536         784/3670016  ( 0.0%) 
+leaves                  69/65536        2208/2097152  ( 0.1%) 
+leaffaces               32/65536          64/131072   ( 0.0%) 
+leafbrushes            198/65536         396/131072   ( 0.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              192/512000        768/2048000  ( 0.0%) 
+edges                  121/256000        484/1024000  ( 0.0%) 
+LDR worldlights          0/65536           0/5767168  ( 0.0%) 
+HDR worldlights          1/65536          88/5767168  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]       60136/0        ( 0.0%) 
+visdata               [variable]          84/16777216 ( 0.0%) 
+entdata               [variable]         540/393216   ( 0.1%) 
+LDR ambient table       69/65536         276/262144   ( 0.1%) 
+HDR ambient table       69/65536         276/262144   ( 0.1%) 
+LDR leaf ambient        69/65536        1932/1835008  ( 0.1%) 
+HDR leaf ambient       128/65536        3584/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]        5832/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 72
+Writing e:\steam\steamapps\sourcemods\bcws\maps\viewbob.bsp
+0 seconds elapsed

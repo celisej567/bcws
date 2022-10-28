@@ -5,8 +5,11 @@
         //$normalmap nature/noise
         $normalmap dev/water_normal
         
+       	//"$multipass" 1
+	"$nocull" 1
+        
  	$refracttint "[0 0 1]"
-	$refractamount .15
+	$refractamount .20
 	%compilenonsolid  1
 	$additive 1
 	"Proxies"

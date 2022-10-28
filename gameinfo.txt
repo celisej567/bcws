@@ -7,6 +7,8 @@ gameinfo
 	title2	""
 	type	"singleplayer_only"
 	gamelogo	"1"
+
+	GameData "fgd/bcws.fgd" 
 	filesystem
 	{
 		steamappid	"243730" //source sdk base 2013 sp
