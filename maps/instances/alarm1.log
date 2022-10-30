@@ -1,0 +1,23 @@
+
+
+
+materialPath: E:\steam\steamapps\sourcemods\bcws\materials
+Loading e:\steam\steamapps\sourcemods\bcws\maps\instances\alarm1.vmf
+fixing up env_cubemap materials on brush sides...
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (577 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6 texinfos to 1
+Reduced 1 texdatas to 1 (18 bytes to 18)
+Writing e:\steam\steamapps\sourcemods\bcws\maps\instances\alarm1.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading e:\steam\steamapps\sourcemods\bcws\maps\instances\alarm1.bsp
+Empty map

@@ -132,4 +132,6 @@
 	input StartFollowingTarget(void)	: "Causes this entity to start following the target if it was set to not follow it before"
 ]
 
+@PointClass base(Weapon) studio("models/weapons/w_meatgun.mdl") = weapon_meatgun : "Meatgun" []
+
 @include "csm.fgd"

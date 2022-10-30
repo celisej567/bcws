@@ -1,7 +1,7 @@
 
 gameinfo
 {
-	game	"BIONICCOYOTE WORK SIMULATOR"
+	game	"BCWS"
 	game_rpc	"BionicCoyote Work Story preAlpha 1"
 	title	""
 	title2	""
@@ -9,36 +9,53 @@ gameinfo
 	gamelogo	"1"
 
 	GameData "fgd/bcws.fgd" 
+
+	CommandLine 
+	{
+		-launchoption	"+pt_max 10"
+	}
+
+    	MountSystem
+    	{        
+        	240 // mounts css content
+       	 	{
+            	"head"    "1"
+            	"required"    "1" // required to launch the game
+            
+            		"cstrike"
+            		{
+                		//"mountmoddir" "0"
+				"vpk"    "cstrike_pak" 
+            		}
+       		}        
+    	}
+
 	filesystem
 	{
 		steamappid	"243730" //source sdk base 2013 sp
 		searchpaths
 		{
 			game+mod	"|gameinfo_path|custom/*"
-			game+mod	"hl2/custom/*"
 			game+mod+mod_write+default_write_path	"|gameinfo_path|."
 			gamebin	"|gameinfo_path|bin"
-			game_lv	"hl2/hl2_lv.vpk"
 			game	"|all_source_engine_paths|hl2/hl2_english.vpk"
 			game	"|all_source_engine_paths|hl2/hl2_pak.vpk"
 			game	"|all_source_engine_paths|hl2/hl2_textures.vpk"
 			game	"|all_source_engine_paths|hl2/hl2_sound_vo_english.vpk"
 			game	"|all_source_engine_paths|hl2/hl2_sound_misc.vpk"
 			game	"|all_source_engine_paths|hl2/hl2_misc.vpk"
-			game+game_write	"hl2"
-			gamebin	"hl2_mod/bin"
 			game	"|all_source_engine_paths|hl2"
 
-			game	"D:/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike"
+			//its for hammer. pls delete or comment when mod done 
+			game	"D:/SteamLibrary/steamapps/common/Counter-Strike Source/cstrike/cstrike_pak_dir.vpk"
 
 			//mapbase stuff
-			game+mod	"|gameinfo_path|base/episodic/*"
 			game+mod	"|gameinfo_path|base/hl2/*"
 			game+mod	"|gameinfo_path|SomeTestShit"
 			game+mod	"|gameinfo_path|base/shared/shared_content.vpk"
 
 			//parallax fixes 
-			game+mod	"|gameinfo_path|parallax/prlx/*"	//delete this line before posting
+			//game+mod	"|gameinfo_path|parallax/prlx/*"	//delete this line before posting
 			//shader editor 
 			//game+mod	"|gameinfo_path|shadereditor"		//this too
 

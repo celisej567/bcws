@@ -1,0 +1,4 @@
+Patch
+{
+include materials/models/weapons/w_shotgun/meat/body.vmt
+}
