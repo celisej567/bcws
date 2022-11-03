@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8862"
-	"mapversion" "316"
+	"editorbuild" "8863"
+	"mapversion" "325"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "316"
+	"mapversion" "325"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -4861,7 +4861,7 @@ world
 				"v" "790 -2026 -258"
 			}
 			"material" "CONCRETE/CONCRETEWALL071A"
-			"uaxis" "[-1 -0 0 344] 0.25"
+			"uaxis" "[-1 0 0 376] 0.25"
 			"vaxis" "[0 0 -1 -8] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -15046,6 +15046,182 @@ world
 }
 entity
 {
+	"id" "14233"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "42"
+	"origin" "1118 -1568 -450"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "15112"
+	"classname" "shadow_control"
+	"angles" "80 30 0"
+	"color" "128 128 128"
+	"distance" "75"
+	"enableshadowsfromlocallights" "1"
+	"origin" "1486 -1894 -442"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "15102"
+	"classname" "assault_assaultpoint"
+	"allowdiversion" "0"
+	"allowdiversionradius" "0"
+	"angles" "0 0 0"
+	"assaulttimeout" "10"
+	"assaulttolerance" "36"
+	"clearoncontact" "0"
+	"nevertimeout" "0"
+	"nextassaultpoint" "alcomb_asspo4"
+	"spawnflags" "0"
+	"strict" "1"
+	"targetname" "alcomb_asspo41"
+	"origin" "1906 -1954 -420"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15500]"
+	}
+}
+entity
+{
+	"id" "15093"
+	"classname" "assault_assaultpoint"
+	"allowdiversion" "0"
+	"allowdiversionradius" "0"
+	"angles" "0 0 0"
+	"assaulttimeout" "10"
+	"assaulttolerance" "36"
+	"clearoncontact" "0"
+	"nevertimeout" "0"
+	"nextassaultpoint" "alcomb_asspo3"
+	"spawnflags" "0"
+	"strict" "1"
+	"targetname" "alcomb_asspo31"
+	"origin" "1986 -1956 -420"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15500]"
+	}
+}
+entity
+{
+	"id" "15081"
+	"classname" "assault_assaultpoint"
+	"allowdiversion" "0"
+	"allowdiversionradius" "1"
+	"angles" "0 0 0"
+	"assaulttimeout" "10"
+	"assaulttolerance" "36"
+	"clearoncontact" "0"
+	"nevertimeout" "0"
+	"nextassaultpoint" "alcomb_asspo2"
+	"spawnflags" "0"
+	"strict" "1"
+	"targetname" "alcomb_asspo22"
+	"origin" "1988 -1910 -420"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15500]"
+	}
+}
+entity
+{
+	"id" "15065"
+	"classname" "assault_assaultpoint"
+	"allowdiversion" "0"
+	"allowdiversionradius" "0"
+	"angles" "0 0 0"
+	"assaulttimeout" "10"
+	"assaulttolerance" "36"
+	"clearoncontact" "0"
+	"nevertimeout" "0"
+	"nextassaultpoint" "alcomb_asspo1"
+	"spawnflags" "0"
+	"strict" "1"
+	"targetname" "alcomb_asspo11"
+	"origin" "2044 -1914 -420"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15500]"
+	}
+}
+entity
+{
+	"id" "14640"
+	"classname" "item_box_buckshot"
+	"angles" "0 345 0"
+	"disableshadows" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "0"
+	"origin" "364 -1298 -328"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "14237"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "44"
+	"origin" "980 -1652 -450"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "14235"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "43"
+	"origin" "1012 -1484 -450"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
 	"id" "7922"
 	"classname" "func_detail"
 	solid
@@ -16240,7 +16416,7 @@ entity
 				"v" "1018 -1722 -410"
 				"v" "1018 -1722 -346"
 			}
-			"material" "NATURE/RFR2"
+			"material" "WINDOW/MINDER/RFR2"
 			"uaxis" "[-1 -0 0 248.008] 0.75"
 			"vaxis" "[0 0 -1 -104] 0.25"
 			"rotation" "0"
@@ -17329,7 +17505,7 @@ entity
 				"v" "1018 -1721 -410"
 				"v" "1018 -1721 -346"
 			}
-			"material" "NATURE/RFR1"
+			"material" "WINDOW/MINDER/RFR3"
 			"uaxis" "[-1 -0 0 248.008] 0.75"
 			"vaxis" "[0 0 -1 -104] 0.25"
 			"rotation" "0"
@@ -17487,7 +17663,7 @@ entity
 				"v" "918 -1723 -410"
 				"v" "1018 -1723 -410"
 			}
-			"material" "NATURE/RFR3"
+			"material" "WINDOW/MINDER/RFR1"
 			"uaxis" "[-1 -0 0 248.008] 0.75"
 			"vaxis" "[0 0 -1 -104] 0.25"
 			"rotation" "0"
@@ -17637,7 +17813,7 @@ entity
 {
 	"id" "10467"
 	"classname" "color_correction"
-	"fadeInDuration" "4.0"
+	"fadeInDuration" "2.0"
 	"fadeOutDuration" "0.0"
 	"filename" "colorcor/lab1.raw"
 	"maxfalloff" "-1"
@@ -19045,7 +19221,7 @@ entity
 	"classname" "assault_rallypoint"
 	"angles" "0 0 0"
 	"assaultdelay" "0"
-	"assaultpoint" "alcomb_asspo2"
+	"assaultpoint" "alcomb_asspo22"
 	"forcecrouch" "0"
 	"priority" "1"
 	"targetname" "aliencomb_ass"
@@ -19065,7 +19241,7 @@ entity
 	"classname" "assault_rallypoint"
 	"angles" "0 0 0"
 	"assaultdelay" "0"
-	"assaultpoint" "alcomb_asspo1"
+	"assaultpoint" "alcomb_asspo11"
 	"forcecrouch" "0"
 	"priority" "1"
 	"targetname" "aliencomb_ass"
@@ -19085,7 +19261,7 @@ entity
 	"classname" "assault_rallypoint"
 	"angles" "0 0 0"
 	"assaultdelay" "0"
-	"assaultpoint" "alcomb_asspo3"
+	"assaultpoint" "alcomb_asspo31"
 	"forcecrouch" "0"
 	"priority" "1"
 	"targetname" "aliencomb_ass"
@@ -19105,7 +19281,7 @@ entity
 	"classname" "assault_rallypoint"
 	"angles" "0 0 0"
 	"assaultdelay" "0"
-	"assaultpoint" "alcomb_asspo4"
+	"assaultpoint" "alcomb_asspo41"
 	"forcecrouch" "0"
 	"priority" "1"
 	"targetname" "aliencomb_ass"
@@ -19693,69 +19869,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4000]"
-	}
-}
-entity
-{
-	"id" "14233"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "42"
-	"origin" "1118 -1568 -450"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 4000]"
-	}
-}
-entity
-{
-	"id" "14235"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "43"
-	"origin" "1012 -1484 -450"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 4000]"
-	}
-}
-entity
-{
-	"id" "14237"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "44"
-	"origin" "980 -1652 -450"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 4000]"
-	}
-}
-entity
-{
-	"id" "14640"
-	"classname" "item_box_buckshot"
-	"angles" "0 345 0"
-	"disableshadows" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"spawnflags" "0"
-	"origin" "364 -1298 -328"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 3000]"
 	}
 }
 cameras

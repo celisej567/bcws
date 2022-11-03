@@ -1,0 +1,9 @@
+VolumeClouds 
+{
+ $basetexture "tst1"
+ $basetexture2 "tst2"
+ $basetexture3 "tst3"
+ $refractamount 0.1
+
+
+}

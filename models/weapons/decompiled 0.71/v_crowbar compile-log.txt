@@ -1,0 +1,100 @@
+// Created by Crowbar 0.71
+
+  Compiling "v_crowbar.qc" ...
+    Output from compiler "D:\SteamLibrary\steamapps\common\Source SDK Base 2013 Singleplayer\bin\studiomdl.exe": 
+      qdir:    "e:\steam\steamapps\sourcemods\bcws\models\weapons\decompiled 0.71\"
+      gamedir: "D:\SteamLibrary\steamapps\common\Source SDK Base 2013 Singleplayer\hl2\"
+      g_path:  "v_crowbar.qc"
+      Building binary model files...
+      Working on "v_crowbar.qc"
+      SMD MODEL Collection.smd
+      SMD MODEL v_crowbar_anims\idle01.smd
+      SMD MODEL v_crowbar_anims\draw.smd
+      SMD MODEL v_crowbar_anims\misscenter1.smd
+      SMD MODEL v_crowbar_anims\misscenter2.smd
+      SMD MODEL v_crowbar_anims\misscenter3.smd
+      SMD MODEL v_crowbar_anims\misscenter4.smd
+      SMD MODEL v_crowbar_anims\hitcenter1.smd
+      SMD MODEL v_crowbar_anims\hitcenter2.smd
+      SMD MODEL v_crowbar_anims\hitcenter3.smd
+      SMD MODEL v_crowbar_anims\hitkill1.smd
+      SMD MODEL v_crowbar_anims\holster.smd
+      SMD MODEL v_crowbar_anims\secondhitstart.smd
+      SMD MODEL v_crowbar_anims\secondhitend.smd
+      ---------------------
+      writing D:\SteamLibrary\steamapps\common\Source SDK Base 2013 Singleplayer\hl2\models/Weapons/v_pipe.mdl:
+      bones         4068 bytes (13)
+         animation       x       y       ips    angle
+           @idle01    0.00    0.00 :    0.00 (  90.00) 3.3
+             @draw    0.00    0.00 :    0.00 (  90.00) 0.9
+      @misscenter1    0.00    0.00 :    0.00 (  90.00) 0.7
+      @misscenter2    0.00    0.00 :    0.00 (  90.00) 0.7
+      @misscenter3    0.00    0.00 :    0.00 (  90.00) 0.7
+      @misscenter4    0.00    0.00 :    0.00 (  90.00) 0.7
+       @hitcenter1    0.00    0.00 :    0.00 (  90.00) 0.5
+       @hitcenter2    0.00    0.00 :    0.00 (  90.00) 0.5
+       @hitcenter3    0.00    0.00 :    0.00 (  90.00) 0.5
+         @hitkill1    0.00    0.00 :    0.00 (  90.00) 0.7
+          @holster    0.00    0.00 :    0.00 (  90.00) 0.3
+      @secondhitstart    0.00    0.00 :    0.00 (  90.00) 1.2
+      @secondhitend    0.00    0.00 :    0.00 (  90.00) 1.2
+      animations   11432 bytes (13 anims) (366 frames) [0:12]
+      sequences     2860 bytes (13 seq) 
+      ik/pose        164 bytes
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      textures       144 bytes
+      keyvalues        0 bytes
+      bone transforms     1832 bytes
+      bone flex driver       0 bytes
+      collision        0 bytes
+      total        21644
+      ---------------------
+      writing D:\SteamLibrary\steamapps\common\Source SDK Base 2013 Singleplayer\hl2\models/Weapons/v_pipe.vvd:
+      vertices     43344 bytes (903 vertices)
+      tangents     14448 bytes (903 vertices)
+      total        57856 bytes
+      ---------------------
+      Generating optimized mesh "D:\SteamLibrary\steamapps\common\Source SDK Base 2013 Singleplayer\hl2\models/Weapons/v_pipe.sw.vtx":
+      body parts:         8 bytes
+      models:            20 bytes
+      model LODs:        12 bytes
+      meshes:            18 bytes
+      strip groups:      50 bytes
+      strips:            54 bytes
+      verts:           8127 bytes
+      indices:         7578 bytes
+      bone changes:       8 bytes
+      everything:     15899 bytes
+      ---------------------
+      Generating optimized mesh "D:\SteamLibrary\steamapps\common\Source SDK Base 2013 Singleplayer\hl2\models/Weapons/v_pipe.dx80.vtx":
+      body parts:         8 bytes
+      models:            20 bytes
+      model LODs:        12 bytes
+      meshes:            18 bytes
+      strip groups:      50 bytes
+      strips:            54 bytes
+      verts:           8127 bytes
+      indices:         7578 bytes
+      bone changes:      56 bytes
+      everything:     15947 bytes
+      ---------------------
+      Generating optimized mesh "D:\SteamLibrary\steamapps\common\Source SDK Base 2013 Singleplayer\hl2\models/Weapons/v_pipe.dx90.vtx":
+      body parts:         8 bytes
+      models:            20 bytes
+      model LODs:        12 bytes
+      meshes:            18 bytes
+      strip groups:      50 bytes
+      strips:            54 bytes
+      verts:           8127 bytes
+      indices:         7578 bytes
+      bone changes:      56 bytes
+      everything:     15947 bytes
+      
+      Completed "v_crowbar.qc"
+    CROWBAR: Moved compiled model file "D:\SteamLibrary\steamapps\common\Source SDK Base 2013 Singleplayer\hl2\models\weapons\v_pipe.dx80.vtx" to "E:\steam\steamapps\sourcemods\bcws\models\weapons"
+    CROWBAR: Moved compiled model file "D:\SteamLibrary\steamapps\common\Source SDK Base 2013 Singleplayer\hl2\models\weapons\v_pipe.dx90.vtx" to "E:\steam\steamapps\sourcemods\bcws\models\weapons"
+    CROWBAR: Moved compiled model file "D:\SteamLibrary\steamapps\common\Source SDK Base 2013 Singleplayer\hl2\models\weapons\v_pipe.mdl" to "E:\steam\steamapps\sourcemods\bcws\models\weapons"
+    CROWBAR: Moved compiled model file "D:\SteamLibrary\steamapps\common\Source SDK Base 2013 Singleplayer\hl2\models\weapons\v_pipe.sw.vtx" to "E:\steam\steamapps\sourcemods\bcws\models\weapons"
+    CROWBAR: Moved compiled model file "D:\SteamLibrary\steamapps\common\Source SDK Base 2013 Singleplayer\hl2\models\weapons\v_pipe.vvd" to "E:\steam\steamapps\sourcemods\bcws\models\weapons"
+  ... Compiling "v_crowbar.qc" finished. Check above for any errors.

@@ -133,5 +133,6 @@
 ]
 
 @PointClass base(Weapon) studio("models/weapons/w_meatgun.mdl") = weapon_meatgun : "Meatgun" []
+@PointClass base(Weapon) studio("models/weapons/w_pipe.mdl") = weapon_pipe : "Pipe" []
 
 @include "csm.fgd"
